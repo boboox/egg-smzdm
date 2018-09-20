@@ -1,0 +1,27 @@
+{
+  "name": "egg-hacker-news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "egg-bin test",
+    "dev": "egg-bin dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.10.0",
+    "egg-mysql": "^3.0.0",
+    "egg-validate": "^2.0.1",
+    "egg-view-nunjucks": "^2.2.0",
+    "koa-is-json": "^1.0.0",
+    "moment": "^2.22.2",
+    "node-uuid": "^1.4.8",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.8.4",
+    "egg-init": "^1.14.1",
+    "egg-mock": "^3.20.0"
+  }
+}
